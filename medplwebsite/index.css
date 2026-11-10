@@ -18,6 +18,19 @@ h3 {
     text-align: center;
 }
 
+p {
+    text-align: center;
+    font-size: 13px;
+    font-family: calibri, sans-serif;
+    
+}
+
+div {
+    padding: 10px;
+    margin: 10px;
+
+}
+
 img {
     display: block;
     margin-left: auto;
@@ -25,7 +38,14 @@ img {
 
 }
 
-
+.statement {
+    text-align: center;
+    font-size: 13px;
+    font-family: lucida sans, sans-serif;
+    margin: 0 auto;
+    width: 90%;
+    
+}
 
 .return {
     display: inline-block;
