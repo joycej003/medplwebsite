@@ -1,24 +1,38 @@
 
 body {
+    position: relative;
+    isolation: isolate;
+    background: none;
+    font-family: calibri, sans-serif;
+    margin: 15px 0 0;
+    padding: 10px;
+    color: rgb(9, 6, 0)
+}
+
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
     background-image: url("images/botanical-framed-card.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
-    font-family: calibri, sans-serif;
-    margin: 15px 0 0 15px;
-    padding: 10px;
+    opacity: 0.85;
 }
 h1 {
     text-align: center;
-    text-decoration: underline;
-    font-family: Lucida sans, sans-serif;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    letter-spacing: 0.02em;
 }
 
 h3 {
     text-align: center;
-    font-family: Lucida sans, sans-serif;
+    font-family: Georgia, serif;
     text-decoration: underline;
+    letter-spacing: 0.02em;
 }
 
 
@@ -43,37 +57,70 @@ img {
 
 }
 
+a:hover {
+    color: #ef60d5;
+    text-decoration: none;
+}
+
+
 .statement {
-    text-align: center;
-    font-size: 13px;
-    font-family: lucida sans, sans-serif;
+    text-align: left;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
     margin: 0 auto;
     width: 90%;
+
     
 }
 
+.creative-statement {
+    max-width: 620px;
+    margin: 28px auto;
+    padding: 20px 24px;
+    border-top: 4px solid rgba(181, 138, 66, 0.5);
+    border-bottom: 4px solid rgba(181, 138, 66, 0.5);
+    border-radius: 12px;
+    background-color: rgb(248, 235, 245, 0.55);
+    color: rgb(48, 37, 31);
+    font-family: Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 1.8;
+    text-align: left;
+}
+
 .return {
-    display: inline-block;
+    display: block;
+    width: fit-content;
+    margin: 16px auto;
     padding: 4px 4px;
     line-height: 1.4;
     text-decoration: none;
     color: rgb(9, 6, 0);
     font-size: 16px;
-    border: 2px solid rgb(229, 180, 32);
-    background-color: rgb(253, 237, 193);
+    border: 2px solid rgb(181, 138, 66, 0.6);
+    background-color: rgb(246, 211, 241, 0.8);
     border-radius: 10px;
 
 }
 
 .reading {
-    display: inline-block;
-    padding: 4px 4px;
+    display: block;
+    padding: 20px 20px;
+    margin: 24px auto;
     line-height: 1.4;
     text-decoration: none;
     color: rgb(9, 6, 0);
     font-size: 16px;
-    border: 5px solid rgb(241, 233, 213);
-    background-color: rgba(241, 223, 247, 0.4);
-    border-radius: 10px;
+    border-left: 4px solid rgba(79, 134, 162, 0.5);
+    border-right: 4px solid rgba(79, 134, 162, 0.5);
+    background-color: rgba(248, 235, 245, 0.45);
+    border-radius: 12px;
 
+}
+
+
+.creative-statement{
+    
 }
