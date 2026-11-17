@@ -1,6 +1,6 @@
 
 body {
-    background-image: url("images/bg.jpg");
+    background-image: url("images/botanical-framed-card.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -12,16 +12,20 @@ body {
 h1 {
     text-align: center;
     text-decoration: underline;
+    font-family: Lucida sans, sans-serif;
 }
 
 h3 {
     text-align: center;
+    font-family: Lucida sans, sans-serif;
+    text-decoration: underline;
 }
+
 
 p {
     text-align: center;
     font-size: 13px;
-    font-family: calibri, sans-serif;
+    font-family: lucida sans, sans-serif;
     
 }
 
@@ -35,6 +39,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    justify-content: center;
 
 }
 
@@ -50,10 +55,25 @@ img {
 .return {
     display: inline-block;
     padding: 4px 4px;
+    line-height: 1.4;
     text-decoration: none;
-    color: rgb(48, 23, 243);
+    color: rgb(9, 6, 0);
     font-size: 16px;
-    border: 1px solid rgb(62, 40, 230);
-    border-radius: 8px;
+    border: 2px solid rgb(229, 180, 32);
+    background-color: rgb(253, 237, 193);
+    border-radius: 10px;
+
+}
+
+.reading {
+    display: inline-block;
+    padding: 4px 4px;
+    line-height: 1.4;
+    text-decoration: none;
+    color: rgb(9, 6, 0);
+    font-size: 16px;
+    border: 5px solid rgb(241, 233, 213);
+    background-color: rgba(241, 223, 247, 0.4);
+    border-radius: 10px;
 
 }
